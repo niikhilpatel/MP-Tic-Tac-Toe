@@ -8,10 +8,44 @@ body{
 }
 
 h4{
-    font-size: 40px;
+    font-size: 47px;
     text-align: center;
 
 }
+
+/* Starting of NAvbar */
+
+.navbar{
+    background-color: rgb(77, 77, 84);
+    border-radius: 36px;
+}
+
+.navbar ul{
+    overflow: auto;
+}
+
+.navbar li{
+    float: left;
+    list-style: none;
+    margin: 12px 15px;
+    color: white;
+}
+
+.navbar li a{
+    /* padding: 3px 3px; */
+    text-decoration: none;
+    color: white;
+}
+
+.login{
+    float: right;
+    color: white;
+    padding: 12px 175px;
+}
+
+
+
+/* End of NAvbar */
 
 
 div{
@@ -137,3 +171,58 @@ div{
     background-color: lightcyan;
     color: white;
   }
+
+
+
+/* type 3 4 Multiplayer */
+.container_3 {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    text-decoration: none;
+    margin: auto;
+  }
+  
+  /* .container img {
+    width: 100%;
+    height: auto;
+  } */
+  
+  .container_3 .btn {
+    position: absolute ;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 16px;
+    padding: 16px 57px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 70%;
+  }
+  
+  .container_3 .btn:hover {
+    background-color: lightcyan;
+    color: white;
+  }
+
+
+
+
+
+
+      /*     Media Queries (Phone/Mobile)      */
+
+      /* @media  screen and (max-width: 600px)  {
+        .container{
+            width: 94%;
+        }
+
+        .navbar{
+            right: 3%;
+        }
+      } */
