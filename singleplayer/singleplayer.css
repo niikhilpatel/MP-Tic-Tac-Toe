@@ -1,6 +1,7 @@
 body {
     text-align: center;
     font-family: 'Caveat Brush', cursive;
+    background-color: grey;
 }
 
 h1{
@@ -30,6 +31,10 @@ td {
 
 tbody {
     border: none;
+}
+
+.container{
+    color: rgb(10, 244, 244);
 }
 
 .top > td{
